@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background: #0f1115;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.status {
+  background: #1f6feb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.panel {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #30363d;
+}
+
+.market-card,
+.event-card,
+.portfolio-card,
+.consensus-card {
+  background: #0d1117;
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 12px;
+  border: 1px solid #30363d;
+}
+
+.bullish {
+  border-color: #2ea043;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
