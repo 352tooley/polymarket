@@ -1,0 +1,17 @@
+{
+  "name": "polymarket",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @polymarket/server\" \"npm run dev --workspace @polymarket/web\"",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace @polymarket/server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
